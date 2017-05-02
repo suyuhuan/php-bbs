@@ -1,0 +1,10 @@
+1、页面中引入
+	font-awesome.css 定义工具栏的样式按钮
+	simditor.css
+	jquery.min.js
+	module.js
+	uploader.js 上传的逻辑
+	simditor.js
+	
+2、初始化配置
+	<textarea id="editor" placeholder="这里输入内容" autofocus></textarea>

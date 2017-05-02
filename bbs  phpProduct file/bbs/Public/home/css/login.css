@@ -1,0 +1,130 @@
+body{
+	background:#F1F2F6;
+	color:#88808B;
+	
+}
+/*头部分*/
+#header,#content{
+	margin:0 auto;
+}
+/*头部信息*/
+#header{
+	height:120px;
+	width:900px;
+	background:#F1F2F6;
+/*	border:1px solid #cff;*/
+}
+#header>div:first-of-type{
+	position:relative;
+	top:30px;
+}
+#header>div:last-of-type img{
+    position:relative;
+    left:300px;
+    bottom:20px;
+}
+
+hr{
+	margin:0px auto;
+	width:904px;
+	border:2px solid #7D7E83;
+    border-radius:2px;
+}
+/*总内容部分*/
+#content{
+	width:900px;
+	height:600px;
+    border:1px solid #EFEEF3;
+    background:#FFFFFF;
+}
+/*提示信息*/
+#content>div:first-of-type{
+	width:870px;
+	height:25px;
+	margin:30px 0px 0px 25px;
+	border-bottom:1px solid #EFEFEF;
+}
+#content>div:first-of-type span{
+	font-family:"黑体";
+	font-size:18px;	
+}
+/*第二个内容部分*/
+#content>div:nth-of-type(2){
+   width:700px;
+   height:400px;
+   margin:60px auto;
+   /*border:1px solid #cfc;*/
+}
+/*左边内容*/
+#content>div:last-of-type>div:first-of-type{
+   float:left;
+   width:75%;
+  /* border:1px solid #cff;*/
+}
+/*左边内容警告区*/
+#content>div:last-of-type>div:first-of-type>div:first-of-type img{
+/*	border:1px solid red;*/
+	float:left;
+	margin:20px;
+}
+#content>div:last-of-type>div:first-of-type>div:first-of-type{
+	height:120px;
+    border:1px solid #fff;
+}
+#content>div:last-of-type>div:first-of-type>div:first-of-type>div:last-of-type{
+   /* border:1px solid red;*/
+    margin:40px 0px 0px 60px;
+}
+#content>div:last-of-type>div:first-of-type>div:first-of-type span{
+	display:block;
+	font-size:14px;
+	margin-bottom:6px;
+}
+/*左边表单区*/
+#content>div:last-of-type>div:first-of-type>div:last-of-type{
+	width:400px;
+	height:400px;
+	margin:10px 0px 0px 80px;
+	/*border:1px solid #cfc;*/
+}
+#content>div:last-of-type>div:first-of-type>div:last-of-type table{
+	 width:300px;
+	 height:250px;
+	 text-align:right;
+}
+#content>div:last-of-type>div:first-of-type>div:last-of-type select[name="pro"]{
+	width:155px;
+	height:20px;
+}
+#content>div:last-of-type>div:first-of-type>div:last-of-type table button{
+	width:80px;
+	height:26px;
+	background:#EF9108;
+	color:#fff;
+	border-radius:4px;
+}
+
+
+/*内容右边区*/
+#content>div:last-of-type>div:last-of-type{
+  float:left;
+   height:200px;
+   width:24%;
+   border-left:1px solid #eee;
+   font-size:14px;	
+
+}
+#content>div:last-of-type>div:last-of-type>div{
+  width:90px;
+  height:40px;
+  margin:25px;
+  line-height:20px;
+}
+#content a{
+	font-size:14px;
+	color:#18498c;
+	text-decoration:none;
+}
+#content a:hover{
+	text-decoration:underline;
+}

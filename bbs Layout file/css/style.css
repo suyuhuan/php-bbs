@@ -1,0 +1,234 @@
+body{
+	background:#F1F2F6;
+}
+/*内容区整体设置居中*/
+#banner,#advert,.content,.content2,#link,#footer{
+	margin:0 auto;
+	margin-top:10px;
+}
+
+/*头部信息*/
+#header{
+	height:165px;
+	min-width:1038px;
+	background:#F1F2F6;
+	/*border:1px solid #cff;*/
+}
+/*头一*/
+#header>div:first-of-type{
+    height:25px;
+    width:100%;
+    background:#E6E9EE;
+    border-bottom:1px solid #fff;
+}
+/*套在为面居中对齐*/
+#header>div:first-of-type>div:first-of-type{
+	height:25px;
+	width:960px;
+	line-height:23px;
+	margin:0 auto;
+}
+/*里面的a链接*/
+#header>div:first-of-type>div:first-of-type a{
+	text-decoration:none;
+	font-size:13px;
+	color:#5D6164;
+}
+#header>div:first-of-type>div:first-of-type a:hover{
+	text-decoration:underline;
+}
+/*左边部分*/
+#header>div:first-of-type>div:first-of-type>div:first-of-type{
+	 float:left;
+	 margin-left:15px;
+}
+/*右边部分*/
+#header>div:first-of-type>div:first-of-type>div:last-of-type{
+	float:right;
+}
+#header>div:first-of-type>div:first-of-type>div:last-of-type a{
+	float:right;
+	margin:0 4px;
+}
+/*头二*/
+#header>div:nth-of-type(2){
+	height:95px;
+	width:100%;
+}
+/*套在外面居中显示*/
+#header>div:nth-of-type(2)>div:first-of-type{
+    width:960px;
+    margin:0 auto;
+}
+/*左边第一部分*/
+#header>div:nth-of-type(2)>div:first-of-type>div:first-of-type{
+	float:left;
+    margin-top:10px;
+    margin-left:10px;
+}
+/*中间部分*/
+#header>div:nth-of-type(2)>div:first-of-type>div:nth-of-type(2){
+	float:left;
+	margin-top:46px;
+	margin-left:80px;
+}
+/*右边部分*/
+#header>div:nth-of-type(2)>div:first-of-type>div:last-of-type{
+	width:320px;
+	margin-top:30px;
+	/*border:1px solid #cfc;*/
+	float:right;
+}
+/*右边的form*/
+#header>div:nth-of-type(2)>div:first-of-type>div:last-of-type>form div:first-of-type{
+      height:25px;
+      font-size:12px;
+      color:#3E3C41;
+      /*border:1px solid #fcc;*/
+}
+
+#header>div:nth-of-type(2)>div:first-of-type>div:last-of-type a{
+	text-decoration:none;
+}
+#header>div:nth-of-type(2)>div:first-of-type>div:last-of-type a:hover{
+	text-decoration:underline;
+}
+/*form里的button*/
+#header>div:nth-of-type(2)>div:first-of-type>div:last-of-type>form div:last-of-type button{
+   width:60px;
+   border-radius:4px;
+   border:1px solid #959597;
+   background:#F0F0EE;
+}
+#header>div:nth-of-type(2)>div:first-of-type>div:last-of-type>form div:last-of-type>button:last-of-type{
+	background:#F4A405;
+}
+
+
+/*头三*/
+#header>div:last-of-type{
+   height:45px;
+   width:100%;
+   background:#075991;
+}
+/*外层用来居中的*/
+#header>div:last-of-type>div:first-of-type{
+	width:960px;
+	margin:0 auto;
+	
+}
+/*左边部分*/
+#header>div:last-of-type>div:first-of-type>div:first-of-type{
+	width:500px;
+	margin-left:15px;
+	
+}
+/*左边部分的a*/
+#header>div:last-of-type a{
+	display:block;
+	font-size:15px;
+	float:left;
+	margin:10px;
+    line-height:23px;
+	color:#f0FFFF;
+	text-decoration:none;
+}
+#header>div:last-of-type a:hover{
+	color:yellow;
+}
+/*右边部分*/
+#header>div:last-of-type>div:first-of-type>div:last-of-type{
+	float:right;
+	width:100px;
+	margin-right:35px;
+}
+/*右边部分的select*/
+#header>div:last-of-type select{
+	width:80px;
+	height:20px;
+	margin:10px;
+}
+
+
+/*搜索框区*/
+#search{
+	margin:0 auto;
+	height:40px;
+	width:960px;
+    line-height:42px;
+	background:#F6FAFD;
+	border:1px solid #DCE1E5;
+	border-radius:0px 0px 4px 4px;
+}
+#search>div:first-of-type{
+	height:30px;
+	float:left;
+	margin:5px;
+}
+#search>div:first-of-type img{
+	width:30px;
+	height:30px;
+}
+#search a{
+	text-decoration:none;
+	color:#88C6D1;
+}
+/*search二部分*/
+#search>div:nth-of-type(2){
+	height:35px;
+	width:415px;
+	float:left;
+	margin-left:10px;
+    /*border:1px solid #fdc;*/
+}
+/*input*/
+#search>div:nth-of-type(2) input{
+	width:250px;
+	height:20px;
+	
+}
+/*search三部分*/
+#search>div:nth-of-type(3){
+	height:30px;
+	width:230;
+	float:left;
+	/*border:1px solid #ccf;*/
+}
+/*search四部分*/
+#search>div:last-of-type>div:first-of-type{
+	height:30px;
+	width:120px;
+	float:left;
+	/*border:1px solid #edf;*/
+}
+#search>div:last-of-type>div:last-of-type{
+	height:30px;
+	width:100px;
+	float:left;
+	/*border:1px solid #ccc;8*/
+}
+
+
+
+/***尾部****/
+/*页尾*/
+#footer{
+   height:100px;
+   width:960px;
+   margin-top:10px;
+   text-align:center;
+   font-size:13px;
+   color:#646560;
+}
+#footer div{
+	margin-bottom:10px;
+}
+#footer a{
+	text-decoration:none;
+	 color:#444450;
+	 font-size:14px;
+	 margin:3px;
+}
+#footer span{
+	 color:#444450;
+}
